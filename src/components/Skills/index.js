@@ -9,11 +9,13 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+
 `
 
 const Wrapper = styled.div`
 position: relative;
 display: flex;
+
 justify-content: space-between;
 align-items: center;
 flex-direction: column;
@@ -54,12 +56,14 @@ const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+  
 `
 
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  background: ${({ theme }) => theme.card};
+  background:#008080;
+ // background: ${({ theme }) => theme.card};
   border: 0.1px solid #854CE6;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
@@ -124,7 +128,7 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Here are some of the skills i have so far.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
