@@ -43,7 +43,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -54,7 +54,7 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color:white;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -63,6 +63,7 @@ const Desc = styled.div`
 
 const TimelineSection = styled.div`
     width: 100%;
+    border:white;
     max-width: 1000px;
     margin-top: 10px;
     display: flex;

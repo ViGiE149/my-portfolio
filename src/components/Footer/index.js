@@ -28,7 +28,7 @@ const FooterWrapper = styled.footer`
 const Logo = styled.h1`
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: #FFDB58;
 `;
 
 const Nav = styled.nav`
@@ -49,12 +49,12 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+color:white;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+        color: #FF6F61;;
   }
   @media (max-width: 768px) {
     font-size: 1rem;
@@ -70,17 +70,17 @@ const SocialMediaIcon = styled.a`
   display: inline-block;
   margin: 0 1rem;
   font-size: 1.5rem;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: #FFDB58;
   }
 `;
 
 const Copyright = styled.p`
   margin-top: 1.5rem;
   font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
+  color: lightgray;
   text-align: center;
 `;
 
