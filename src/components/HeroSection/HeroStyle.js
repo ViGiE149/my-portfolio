@@ -16,8 +16,40 @@ background:#008080;
   }
   z-index: 1;
 
-  //clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  border-bottom-right-radius: 50px 20px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom:-70px;
+    left: 0;
+    z-index: -100;
+    height: 13px;
+    background-color:  #008080;
+    border-width: 30px;
+    border-style: solid;
+   
+    border-color: transparent transparent  #008080 ; /* Match the top div's background color */
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -74px;
+    left: 0;
+    z-index: -100;
+    height: 13px;
+    background-color:#4682B4;
+    border-width: 30px;
+    border-style: solid;
+    border-top-left-radius: 50px 20px;
+    border-color: transparent transparent  #4682B4; /* Match the top div's background color */
+}
+
+
+
 `;
+
 
 export const HeroBg = styled.div`
   position: absolute;

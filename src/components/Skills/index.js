@@ -10,6 +10,7 @@ position: relative;
 z-index: 1;
 align-items: center;
 
+
 `
 
 const Wrapper = styled.div`
@@ -22,9 +23,17 @@ flex-direction: column;
 width: 100%;
 max-width: 1100px;
 gap: 12px;
+
+
+
 @media (max-width: 960px) {
     flex-direction: column;
 }
+
+
+
+
+
 `
 
 export const Title = styled.div`
