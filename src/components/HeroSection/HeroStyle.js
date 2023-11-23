@@ -3,7 +3,6 @@ import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
 background:#008080;
-  // background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
   position: relative;
@@ -29,7 +28,7 @@ background:#008080;
     border-width: 30px;
     border-style: solid;
    
-    border-color: transparent transparent  #008080 ; /* Match the top div's background color */
+    border-color: transparent transparent  #008080 ; 
   }
 
   &:after {
@@ -43,7 +42,7 @@ background:#008080;
     border-width: 30px;
     border-style: solid;
     border-top-left-radius: 50px 20px;
-    border-color: transparent transparent  #4682B4; /* Match the top div's background color */
+    border-color: transparent transparent  #4682B4; 
 }
 
 
@@ -133,7 +132,7 @@ export const Img = styled.img`
   max-height: 400px;
   border-radius: 50%;
   transform: rotate(15deg);
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 2px solid #FF6F61;
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -167,7 +166,7 @@ export const TextLoop = styled.div`
   font-size: 32px;
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   line-height: 68px;
   @media (max-width: 960px) {
     text-align: center;
@@ -181,7 +180,7 @@ export const TextLoop = styled.div`
 
 export const Span = styled.span`
   color:#FF6F61;
- // color: ${({ theme }) => theme.primary};
+ 
   cursor: pointer;
 `;
 
@@ -189,7 +188,7 @@ export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  color: lightgray;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -210,7 +209,7 @@ export const ResumeButton = styled.a`
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    color:white;
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;

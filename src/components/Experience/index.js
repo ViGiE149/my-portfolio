@@ -21,6 +21,7 @@ const Container = styled.div`
     @media (max-width: 960px) {
         padding: 0px;
     }
+    
 `;
 
 const Wrapper = styled.div`
@@ -36,6 +37,7 @@ const Wrapper = styled.div`
     @media (max-width: 960px) {
         flex-direction: column;
     }
+    
 `;
 
 const Title = styled.div`
@@ -43,7 +45,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -54,11 +56,12 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: darkgray;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
     }
+    
 `;
 
 const TimelineSection = styled.div`
@@ -70,8 +73,9 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
-`;
+   
 
+`;
 
 
 const index = () => {
@@ -87,8 +91,8 @@ const index = () => {
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    <TimelineDot variant="outlined" color="primary" />
+                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: 'primary' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>

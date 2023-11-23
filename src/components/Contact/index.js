@@ -11,12 +11,45 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+
 @media (max-width: 960px) {
     padding: 0px;
 }
+
+&:before {
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -100;
+  height: 13px;
+  background-color:  #008080;
+  border-width: 30px;
+  border-style: solid;
+ 
+  border-color: transparent transparent #008080 ; /* Match the top div's background color */
+}
+
+&:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: -100;
+  height: 13px;
+  background-color:#4682B4;
+  border-width: 30px;
+  border-style: solid;
+  border-top-left-radius: 50px 20px;
+  border-color: transparent transparent #4682B4; /* Match the top div's background color */
+}
+
+
+
 `
 
 const Wrapper = styled.div`
+border-top-left-radius: 50px 20px;
 position: relative;
 display: flex;
 justify-content: space-between;
@@ -31,12 +64,22 @@ gap: 12px;
 }
 `
 
+const PP = styled.p`
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color:lightgray;
+`
+const A = styled.a`
+text-decoration: none;
+  color:#FFDB58;
+`
 const Title = styled.div`
 font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -47,7 +90,7 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: lightgray;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -60,7 +103,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.card};
+  background-color:#008080;
   padding: 32px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -72,34 +115,34 @@ const ContactTitle = styled.div`
   font-size: 24px;
   margin-bottom: 6px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
 `
 
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid lightgray;
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: lightgray;
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 1px solid gray;
   }
 `
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid lightgray;
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color:lightgray;
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 1px solid lightgray;
   }
 `
 
@@ -108,14 +151,14 @@ const ContactButton = styled.input`
   text-decoration: none;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: #FF6F61;
+  background: #FF6F61;
+  background: #FF6F61;
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
   border: none;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   font-size: 18px;
   font-weight: 600;
 `
@@ -130,7 +173,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_iht2ej9', 'template_5a19fbh', form.current, 'sdec_-eHbbd95KUHJ')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -142,12 +185,15 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        
+    <PP>Phone: <A href="tel:0784951538">0784951538</A></PP>
+    <PP>Email: <A href="mailto:vgwala149@email.com">vgwala149@gmail.com</A></PP>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me </ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />

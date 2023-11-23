@@ -18,9 +18,46 @@ const Container = styled.div`
     z-index: 1;
     align-items: center;
     padding: 0px 0px 60px 0px;
+    background:#008080;
+    border-bottom-right-radius: 50px 20px;
+    border-top-right-radius: 50px 20px;
     @media (max-width: 960px) {
         padding: 0px;
     }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top:-73px;
+        left: 0;
+        z-index: -100;
+        height: 13px;
+        background-color:  #008080;
+        border-width: 30px;
+        border-style: solid;
+       
+        border-color: transparent transparent  #008080 ; /* Match the top div's background color */
+      }
+    
+      &:after {
+        content: "";
+        position: absolute;
+        top: -73px;
+        left: 0;
+        z-index: -100;
+        height: 13px;
+        background-color:#4682B4;
+        border-width: 30px;
+        border-style: solid;
+        border-bottom-left-radius: 50px 20px;
+        border-color: transparent transparent #4682B4; /* Match the top div's background color */
+    }
+    
+    
+    
+
+
+
 `;
 
 const Wrapper = styled.div`
@@ -94,8 +131,8 @@ const index = () => {
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    <TimelineDot variant="filled" color="primary" />
+                                    {index !== experiences.length  && <TimelineConnector style={{ background: 'blue' }} />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

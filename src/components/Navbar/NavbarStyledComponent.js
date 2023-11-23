@@ -4,8 +4,6 @@ import _default from '../../themes/default';
 
 export const Nav = styled.div`
 background-color:#008082;
-//background-color:#007089;
-    //background-color: ${({theme}) => theme.card_light};
     height: 80px;
     display: flex;
     align-items: center;
@@ -44,6 +42,12 @@ export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
     font-size: 18px;
+
+`;
+export const IMGS  = styled.img`
+    padding: 0 ;
+    margin:0;
+
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -60,7 +64,7 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
+    color: white;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -70,7 +74,7 @@ export const NavLink = styled.a`
     }
 
     &.active {
-      border-bottom: 2px solid ${({ theme }) => theme.primary};
+      border-bottom: 2px solid #FFDB58;
     }
 `;
 

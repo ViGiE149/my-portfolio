@@ -7,10 +7,10 @@ export const Bio = {
   ],
   description:
     "I'm a motivated and versatile individual, always eager for new challenges. Passionate about learning, I'm dedicated to delivering high-quality results with a positive attitude and a growth mindset. Ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/ViGiE149",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "www.linkedin.com/in/vusumuzi-gwala-8a6a13236",
+  linkedin: "https://www.linkedin.com/in/vusumuzi-gwala-8a6a13236",
   whatsapp: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
   facebook: "https://www.facebook.com/rishav.chanda.165/",
