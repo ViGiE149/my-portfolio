@@ -1,3 +1,6 @@
+
+
+
 export const Bio = {
   name: "VUSUMUZI GWALA",
   roles: [
@@ -216,24 +219,18 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
+    title: "co-operative education",
     date: "Jun 2023 - Jul 2023",
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image: "./images/co-op.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
+      "PHP",
+      "nodeMailer",
+      "firebase",
+      "Angular",
+      "Ionic",
       "Node Js",
-      "Express Js",
-      "Redux",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
@@ -241,46 +238,33 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "Little-IQ's",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "Developed a static website that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
+      "./images/little-iq.png",
+    tags: ["React Js", "MailJs", "Node Js","firebase hosting"],
+    category: "website",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    
+   
   },
   {
     id: 1,
-    title: "Vexa",
+    title: "confession",
     date: "Oct 2022 - Present",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
-      "React Js",
-      "MongoDb",
+      "Ionic",
+      "Angular",
       "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Firebase",
+      "Mail Js",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Project-Management-App",
