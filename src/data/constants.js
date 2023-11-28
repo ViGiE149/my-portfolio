@@ -1,3 +1,6 @@
+
+
+
 export const Bio = {
   name: "VUSUMUZI GWALA",
   roles: [
@@ -11,9 +14,8 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vusumuzi-gwala-8a6a13236",
-  whatsapp: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  whatsapp: "https://wa.me/0784951538",
+  git: "https://github.com/ViGiE149",
 };
 
 export const skills = [
@@ -152,7 +154,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "./images/mutlogo.jpg",
     role: "Intern Fullstack software developer",
     company: "MUT Inovations Lab.",
     date: "Fed 2023 - current",
@@ -164,12 +166,11 @@ export const experiences = [
       "PHP",
       "sharepoint",
       "Node Js",
-      "JavaScript",
       "TypeScript",
      "ionic",
       "My SQL",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+   
   }
  
 ];
@@ -177,7 +178,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "./images/mutlogo.jpg",
     school: "Mangosthu university of technoloy",
     date: "Jan 2020 - Dec 2023",
     grade: "8.71 CGPA",
@@ -186,7 +187,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "./images/amatshezuluHighSchool.PNG",
     school: "Amatshezulu High school",
     date: "Jan 2013 - Dec 2017",
     grade: "88.2%",
@@ -195,7 +196,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "./images/collageOaF.png",
     school: "Collage of Africa",
     date: "Jul 2023 - Sep 2023",
     grade: "84%",
@@ -204,7 +205,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "./images/collageOaF.png",
     school: "Collage of Africa",
     date: "Jun 2022 - Aug 2022",
     grade: "84%",
@@ -216,24 +217,18 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Confessions",
+    title: "co-operative education",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "User Co-op, the innovative web application designed to streamline the connection between ambitious students and graduates seeking employment or internships, and forward-thinking cooperative education providers. Elevate your career journey with User Co-op's user-friendly platform that simplifies the application process and ensures a seamless match between talented individuals and exciting opportunities.",
+    image: "./images/co-op.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
+      "PHP",
+      "nodeMailer",
+      "firebase",
+      "Angular",
+      "Ionic",
       "Node Js",
-      "Express Js",
-      "Redux",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
@@ -241,46 +236,33 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "Little-IQ's",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      " Little-IQ Showcase is a meticulously crafted static website designed to illuminate the unique and innovative services offered by Cratche Little-IQ. With a focus on simplicity, elegance, and user experience, this website serves as a virtual gateway to explore the world of educational solutions tailored for young minds.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
+      "./images/little-iq.png",
+    tags: ["React Js", "MailJs", "Node Js","firebase hosting"],
+    category: "website",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    
+   
   },
   {
     id: 1,
-    title: "Vexa",
+    title: "confession",
     date: "Oct 2022 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Confessions Confectionery is a delightful and interactive web app designed to create a unique space for users to share their thoughts, confessions, and sweet moments without the need for formal registration. The platform serves as a virtual confectionery, where users can freely express themselves and indulge in a community of shared experiences.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "./images/confess.png",
     tags: [
-      "React Js",
-      "MongoDb",
+      "Ionic",
+      "Angular",
       "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Firebase",
+      "Mail Js",
     ],
     category: "web app",
     github: "https://github.com/rishavchanda/Project-Management-App",
