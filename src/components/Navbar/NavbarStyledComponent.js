@@ -88,6 +88,7 @@ export const GitHubButton = styled.a`
   border-radius: 20px;
   color: #FFDB58;
   cursor: pointer;
+  
   padding: 0 20px;
   font-weight: 500;
   text-decoration: none;
@@ -99,6 +100,7 @@ export const GitHubButton = styled.a`
     }
     @media screen and (max-width: 768px) { 
     font-size: 14px;
+  
     }
 `;
 
@@ -125,7 +127,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor: pointer;
-    color: ${({ theme }) => theme.text_primary};
+    color: white;
   }
 `
 
@@ -161,7 +163,7 @@ export const MobileMenuItems = styled.ul`
 `
 
 export const MobileMenuLink = styled(LinkR)`
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
