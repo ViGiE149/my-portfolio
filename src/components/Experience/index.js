@@ -89,7 +89,7 @@ const index = () => {
                 <TimelineSection>
                     <Timeline>
                         {experiences.map((experience,index) => (
-                            <TimelineItem key={experience.id}>
+                            <TimelineItem key={index}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="primary" />
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: 'primary' }} />}
@@ -107,4 +107,4 @@ const index = () => {
     )
 }
 
-export default index
+export default index;

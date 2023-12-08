@@ -1,3 +1,12 @@
+import mutlogo from '../images/mutlogo.jpg'; 
+import coop from '../images/co-op.png'; 
+import collageOaF from '../images/collageOaF.png'; 
+import confess from '../images/confess.png'; 
+import research_funding from '../images/research_funding.png'; 
+import iq from '../images/little-iq.png'; 
+import amatsheZulu from '../images/amatshezuluHighSchool.PNG'; 
+import driving from '../images/driving.png'; 
+
 export const Bio = {
   name: "VUSUMUZI GWALA",
   roles: [
@@ -148,7 +157,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "./images/mutlogo.jpg",
+    img: mutlogo,
     role: "Intern Fullstack software developer",
     company: "MUT Inovations Lab.",
     date: "Fed 2023 - current",
@@ -172,7 +181,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "./images/mutlogo.jpg",
+    img: mutlogo,
     school: "Mangosthu university of technoloy",
     date: "Jan 2020 - Dec 2023",
     grade: "8.71 CGPA",
@@ -181,7 +190,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "./images/amatshezuluHighSchool.PNG",
+    img: amatsheZulu,
     school: "Amatshezulu High school",
     date: "Jan 2013 - Dec 2017",
     grade: "88.2%",
@@ -190,7 +199,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "./images/collageOaF.png",
+    img: collageOaF,
     school: "Collage of Africa",
     date: "Jul 2023 - Sep 2023",
     grade: "84%",
@@ -199,7 +208,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "./images/collageOaF.png",
+    img: collageOaF,
     school: "Collage of Africa",
     date: "Jun 2022 - Aug 2022",
     grade: "84%",
@@ -212,10 +221,10 @@ export const projects = [
   {
     id: 9,
     title: "co-operative education",
-    date: "Jun 2023 - Jul 2023",
+    date: "",
     description:
       "User Co-op, the innovative web application designed to streamline the connection between ambitious students and graduates seeking employment or internships, and forward-thinking cooperative education providers. Elevate your career journey with User Co-op's user-friendly platform that simplifies the application process and ensures a seamless match between talented individuals and exciting opportunities.",
-    image: "./images/co-op.png",
+    image: coop,
     tags: [
       "PHP",
       "nodeMailer",
@@ -231,11 +240,10 @@ export const projects = [
   {
     id: 0,
     title: "Little-IQ's",
-    date: "Apr 2023 - May 2023",
+    date: "",
     description:
       " Little-IQ Showcase is a meticulously crafted static website designed to illuminate the unique and innovative services offered by Cratche Little-IQ. With a focus on simplicity, elegance, and user experience, this website serves as a virtual gateway to explore the world of educational solutions tailored for young minds.",
-    image:
-      "./images/little-iq.png",
+    image:iq,
     tags: ["React Js", "MailJs", "Node Js","firebase hosting"],
     category: "website",
     github: "https://github.com/ViGiE149/LITTLE-IQ",
@@ -249,8 +257,7 @@ export const projects = [
     date: "Oct 2022 - Present",
     description:
       "Confessions Confectionery is a delightful and interactive web app designed to create a unique space for users to share their thoughts, confessions, and sweet moments without the need for formal registration. The platform serves as a virtual confectionery, where users can freely express themselves and indulge in a community of shared experiences.",
-    image:
-      "./images/confess.png",
+    image: confess,
     tags: [
       "Ionic",
       "Angular",
@@ -266,11 +273,10 @@ export const projects = [
   {
     id: 5,
     title: "Rerseach Funding",
-    date: "Jun 2021",
+    date: "",
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "./images/research_funding.png",
+    image:research_funding,
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "web app",
     github: "",
@@ -280,11 +286,10 @@ export const projects = [
   {
     id: 7,
     title: "learners licence test",
-    date: "Dec 2020 - Jan 2021",
+    date: "",
     description:
       "desktop app design to hold test for learners at linders driving school.",
-    image:
-      "",
+    image: driving,
     tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
     category: "android app",
     github: "",
