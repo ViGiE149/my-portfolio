@@ -239,7 +239,7 @@ export const projects = [
     tags: ["React Js", "MailJs", "Node Js","firebase hosting"],
     category: "website",
     github: "https://github.com/ViGiE149/LITTLE-IQ",
-    webapp: "",
+    webapp: "https://little-iq.web.app/",
     
    
   },
