@@ -1,6 +1,3 @@
-
-
-
 export const Bio = {
   name: "VUSUMUZI GWALA",
   roles: [
@@ -11,8 +8,7 @@ export const Bio = {
   description:
     "I'm a motivated and versatile individual, always eager for new challenges. Passionate about learning, I'm dedicated to delivering high-quality results with a positive attitude and a growth mindset. Ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/ViGiE149",
-  resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+  resume:"./images/Vusumuzi Cv.pdf",
   linkedin: "https://www.linkedin.com/in/vusumuzi-gwala-8a6a13236",
   whatsapp: "https://wa.me/0784951538",
   git: "https://github.com/ViGiE149",
