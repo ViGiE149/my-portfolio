@@ -126,27 +126,25 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of the skills i have so far.
-        </Desc>
+        <Desc>Here are some of the skills I have so far.</Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
+          {skills.map((skill, index) => (
+            <Skill key={index}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
+                {skill.skills.map((item, itemIndex) => (
+                  <SkillItem key={itemIndex}>
+                    <SkillImage src={item.image} alt={item.name} />
                     {item.name}
                   </SkillItem>
                 ))}
               </SkillList>
             </Skill>
           ))}
-
         </SkillsContainer>
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
