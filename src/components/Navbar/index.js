@@ -11,10 +11,8 @@ import {
   ButtonContainer,
   MobileIcon,
   MobileMenu,
-  MobileNavLogo,
   MobileLink,
 } from "./NavbarStyledComponent";
-import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 import { useTheme } from "styled-components";

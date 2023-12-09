@@ -1,11 +1,11 @@
-import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
+// import { ThemeProvider } from "styled-components";
+
+// import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
-import About from "./components/About";
+// import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -14,6 +14,8 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import React, { useState } from 'react';
+
 
 const Body = styled.div`
   background-color:  #4682B4;
@@ -29,11 +31,9 @@ background:#4682B4;
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
         <Body>
@@ -53,7 +53,6 @@ function App() {
           }
         </Body>
       </Router>
-    </ThemeProvider>
   );
 }
 

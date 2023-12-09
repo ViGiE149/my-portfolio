@@ -103,7 +103,6 @@ function Footer() {
         <Copyright>
           &copy; 2023 VIGIE SOLLUTION. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );
