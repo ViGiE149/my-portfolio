@@ -137,11 +137,12 @@ export const MobileMenu = styled.div`
     justify-content: center;
     gap: 16px;
     position: absolute;
-    top: 80px;
+    top: 79px;
     right: 0;
-    width: 100%;
-    padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
+    max-width: 100%;
+  
+    padding: 11px 40px 24px 40px;
+    background: rgba(0, 128, 130, .9);
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
@@ -169,22 +170,22 @@ export const MobileMenuLink = styled(LinkR)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   :hover {
-    color: ${({ theme }) => theme.primary};
+    color: #FF6F61;
   }
 
   &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    border-bottom: 2px solid #FF6F61;
   }
 `;
 
 export const MobileMenuButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
+  border: 1.8px solid blue;
   justify-content: center;
   display: flex;
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: white;
   cursor: pointer;
   padding: 0 20px;
   font-weight: 500;
@@ -193,23 +194,23 @@ export const MobileMenuButton = styled.a`
   transition: all 0.6s ease-in-out;
 
   :hover {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.white};
+    background: white;
+    color: whitw;
   }
 `;
 
 export  const MobileLink = styled.a`
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   :hover {
-    color: ${({ theme }) => theme.primary};
+    color: white;
   }
 
   &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    border-bottom: 2px solid #FF6F61;
   }
 `;
 

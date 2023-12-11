@@ -19,7 +19,7 @@ export const Bio = {
   github: "https://github.com/ViGiE149",
   resume:"./images/Vusumuzi Cv.pdf",
   linkedin: "https://www.linkedin.com/in/vusumuzi-gwala-8a6a13236",
-  whatsapp: "https://wa.me/0784951538",
+  whatsapp: "https://wa.me/+27784951538",
   git: "https://github.com/ViGiE149",
 };
 
@@ -183,8 +183,9 @@ export const education = [
     id: 0,
     img: mutlogo,
     school: "Mangosthu university of technoloy",
-    date: "Jan 2020 - Dec 2023",
-    grade: "8.71 CGPA",
+    date: "Jan 2020 - Dec 2022",
+    grade: "75.5%",
+    // grade: "75.5 CGPA",
     desc:  "I've successfully completed my academic display and graduated on time.",
     degree: "Diploma in information Technology",
   },
@@ -193,7 +194,7 @@ export const education = [
     img: amatsheZulu,
     school: "Amatshezulu High school",
     date: "Jan 2013 - Dec 2017",
-    grade: "88.2%",
+    grade: "71.2%",
     desc: "I completed my 12th-grade matric on time with a bachelor's pass.",
     degree: "National Senior Certificate (NSC)",
   },
@@ -202,7 +203,7 @@ export const education = [
     img: collageOaF,
     school: "Collage of Africa",
     date: "Jul 2023 - Sep 2023",
-    grade: "84%",
+    grade: "80%",
     desc: "I completed a course and passed the ComptiA S+ axam.",
     degree: "ComptiA Security+",
   },
@@ -254,7 +255,7 @@ export const projects = [
   {
     id: 1,
     title: "confession",
-    date: "Oct 2022 - Present",
+    date: "",
     description:
       "Confessions Confectionery is a delightful and interactive web app designed to create a unique space for users to share their thoughts, confessions, and sweet moments without the need for formal registration. The platform serves as a virtual confectionery, where users can freely express themselves and indulge in a community of shared experiences.",
     image: confess,
@@ -275,9 +276,9 @@ export const projects = [
     title: "Rerseach Funding",
     date: "",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "This web application is meticulously designed to simplify and expedite the intricate process of applying for research funding. Recognizing the diverse approval levels and the array of documents required, the system seamlessly guides researchers through each stage with unparalleled ease. ",
     image:research_funding,
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    tags: ["PHP", "bootstrap", "node mailer", "Node JS"],
     category: "web app",
     github: "",
     webapp: "",
@@ -288,20 +289,20 @@ export const projects = [
     title: "learners licence test",
     date: "",
     description:
-      "desktop app design to hold test for learners at linders driving school.",
+      "its an offline desktop app design to hold test for learners at linders driving school.",
     image: driving,
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+    tags: ["ionic","angular"],
     category: "android app",
-    github: "",
+    github: "https://github.com/Lindani456/learnersakak53",
     webapp: "",
   },
   
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];

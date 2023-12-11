@@ -98,7 +98,7 @@ function Footer() {
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.git} target="display"><GitHubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.  whatsapp} target="display"><WhatsAppIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.whatsapp} target="display"><WhatsAppIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 VIGIE SOLLUTION. All rights reserved.
