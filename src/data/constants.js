@@ -331,7 +331,7 @@ export const projects = [
     image: snapAndFix,
     tags: ["ionic","angular"],
     category: "android app",
-    github: "https://github.com/Lindani456/learnersakak53",
+    github: "https://github.com/ViGiE149/mut-snap-and-fix",
     webapp: "",
   }
   
