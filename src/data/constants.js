@@ -327,7 +327,7 @@ export const projects = [
     id: 8,
     title: "Snap and Fix",
     date: "",
-    description: "its an offline desktop app design to hold test for learners at linders driving school.",
+    description: "Introducing the Campus Damage Report & Tracking App, an innovative Android application designed to streamline the reporting and management of damaged property within university campuses. This user-friendly and efficient app empowers students and staff to contribute to the upkeep of their academic environment by reporting damages promptly.",
     image: snapAndFix,
     tags: ["ionic","angular"],
     category: "android app",
