@@ -16,6 +16,9 @@ import git from '../images/git.png';
 import cshap from '../images/cshap.png';
 import expressjs from '../images/expressjs.png';
 import snapAndFix from '../images/snapAndFix.png';
+import excel from '../images/excel.PNG';
+
+
 
 export const Bio = {
   name: "VUSUMUZI GWALA",
@@ -333,6 +336,17 @@ export const projects = [
     category: "android app",
     github: "https://github.com/ViGiE149/mut-snap-and-fix",
     webapp: "",
+  },
+  {
+    id: 2,
+    title: "User Submission Discrepancy Analyzer with Flask and Pandas",
+    date: "",
+    description: "The User Submission Discrepancy Analyzer is a user-friendly Python Flask-based web application crafted to streamline the identification of users who have not submitted crucial information. This solution utilizes the powerful Pandas library for efficient manipulation of Excel files, making it an intuitive tool for organizations managing user data. The User Submission Discrepancy Analyzer specializes in comparing two files of all users against those who have submitted, extracting valuable insights by pinpointing individuals who have not yet submitted crucial information. This tool empowers organizations to proactively manage and engage with users for a more comprehensive data submission process.",
+    image: excel,
+    tags: ["flask","pandas"],
+    category: "web app",
+    github: "https://github.com/ViGiE149/extract-excel-data",
+    webapp: "mutinnovationlab.pythonanywhere.com",
   }
   
 ];
