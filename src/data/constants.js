@@ -17,7 +17,7 @@ import cshap from '../images/cshap.png';
 import expressjs from '../images/expressjs.png';
 import snapAndFix from '../images/snapAndFix.png';
 import excel from '../images/excel.PNG';
-
+import mkvotes from '../images/mkvotes.PNG';
 
 
 export const Bio = {
@@ -336,6 +336,35 @@ export const projects = [
     category: "android app",
     github: "https://github.com/ViGiE149/mut-snap-and-fix",
     webapp: "",
+  },
+  {
+    id: 12,
+    title: "mk votes",
+    date: "",
+    description: `Digital Voting System
+This project involves developing a digital voting system aimed at capturing and managing votes efficiently. The system features the following components and functionalities:
+
+User Registration and Approval
+User Registration: Individuals can register on the platform to participate in the voting process.
+Admin Approval: Registered users must be approved by an admin before they can access voting functionalities.
+Voting and Turnout Management
+Turnout Update: Users can update voter turnout information to reflect real-time participation.
+Vote Addition: Users can add votes for different political parties, ensuring accurate vote capturing.
+Administrative Analytics
+Analytics Dashboard: Admins have access to a comprehensive analytics dashboard.
+Municipality Insights: View detailed insights and statistics for various municipalities.
+Voting Station Data: Analyze data from different voting stations to monitor performance and turnout.
+Key Features
+Secure Authentication: Ensures that only authorized users and admins access the system.
+User-Friendly Interface: Simplifies the voting and management process for users and administrators.
+Real-Time Updates: Provides instant updates on voter turnout and vote counts.
+Data Visualization: Presents data in a visual format for easy analysis and decision-making.
+This project aims to streamline the voting process, enhance data accuracy, and provide valuable insights through robust analytics.`,
+    image: mkvotes,
+    tags: ["ionic","anguler"],
+    category: "web app",
+    github: "https://github.com/Jabulani00/Mkhonto-Wesizwe",
+    webapp: "https://mkvotes.com",
   },
   {
     id: 2,
